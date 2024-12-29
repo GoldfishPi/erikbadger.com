@@ -19,8 +19,9 @@ export const prerender = true
 
 export const load: PageLoad = async () => {
   const projects = await getBulkMd(import.meta.glob('../md/projects/*.md'));
+  projects.reverse();
   const experience = await getBulkMd(import.meta.glob('../md/experience/*.md'));
-  experience.reverse()
+  experience.reverse();
   return {
     projects,
     experience

@@ -1,11 +1,6 @@
-
-<div class="flex flex-col lg:gap-5 lg:flex-row">
-  <p class="lg:w-1/5">{date}</p>
-  <div class="lg:w-4/5 flex flex-col gap-5">
-    <a href={href} class="flex gap-3 items-center hover:text-green text-white">
-      <h5>{name}</h5>
-      <ArrowUpRight size={16} />
-    </a>
+<div class="flex flex-col gap-5 rounded-md lg:flex-row">
+  <h5 class="lg:w-1/5">{name}</h5>
+  <div class="flex flex-col gap-5 rounded-md lg:w-4/5">
     <div>
       {@html md.html}
     </div>
@@ -19,7 +14,6 @@
 
 <script lang="ts">
 import Chip from './Chip.svelte';
-import {ArrowUpRight} from 'lucide-svelte';
 interface Props {
   md: {
     attributes: Record<string, unknown>;
@@ -27,8 +21,6 @@ interface Props {
   }
 }
 const { md }: Props = $props();
-const date = md.attributes.date as string;
 const name = md.attributes.name as string;
-const href = md.attributes.href as string;
 const tools = (md.attributes.tools as string).split(',');
 </script>

@@ -20,6 +20,7 @@ export default {
         everforest: {
           css: {
             '--tw-prose-headings': theme('colors.white'),
+            '--tw-prose-links': theme('colors.green'),
             h1: {
               fontSize: '3rem',
               fontWeight: 'ExtraBold',
@@ -45,6 +46,9 @@ export default {
             p: {
               fontSize: '0.875rem',
               margin: 0,
+            },
+            a: {
+              textDecoration: 'none'
             }
           }
         }

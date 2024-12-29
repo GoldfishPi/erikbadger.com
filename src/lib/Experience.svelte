@@ -1,7 +1,7 @@
 
 <div class="flex flex-col lg:gap-5 lg:flex-row">
-  <p class="lg:w-1/5">{date}</p>
-  <div class="lg:w-4/5 flex flex-col gap-5">
+  <p class="lg:w-2/5">{date}</p>
+  <div class="lg:w-3/5 flex flex-col gap-5">
     <a href={href} class="flex gap-3 items-center hover:text-green text-white">
       <h5>{name}</h5>
       <ArrowUpRight size={16} />

@@ -2,5 +2,4 @@
 name: Lassie Bug
 tools: Typecript,React
 ---
-This is the UI library I developed for my own personal projects and currently being used on this site.
-It is written in React and designed to be completely modular so I can pull in small pieces into any project I am working in.
+I developed this UI library for my personal projects, and it is currently being used on this site. Built with React, the library is designed to be fully modular, allowing me to easily integrate individual components into any project I work on.

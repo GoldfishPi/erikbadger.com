@@ -1,7 +1,8 @@
 <svelte:head>
   <title>Erik Badger | Software Engineer</title>
 </svelte:head>
-<div class="flex flex-col gap-20 lg:flex-row lg:pl-20 lg:pr-20">
+
+<div class="flex flex-col gap-20 lg:flex-row p-10 lg:p-0 lg:pl-20 lg:pr-20 ">
   <Header />
   <div class="flex flex-col gap-20 lg:w-1/2 lg:pt-20 lg:pb-20">
     <h2 id="about">About</h2>

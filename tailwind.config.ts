@@ -11,7 +11,7 @@ export default {
       },
       colors: {
         green: '#A7C080',
-        'green-50': 'rgba(167, 192, 128, 0.5)',
+        'green-50': 'rgba(167, 192, 128, 0.1)',
         shark: '#1E2326',
         space: '#272E33',
         white: '#D3C6AA'

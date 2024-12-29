@@ -5,17 +5,17 @@
 <div class="flex flex-col gap-20 lg:flex-row p-10 lg:p-0 lg:pl-20 lg:pr-20 ">
   <Header />
   <div class="flex flex-col gap-20 lg:w-1/2 lg:pt-20 lg:pb-20">
-    <h2 id="about">About</h2>
+    <h2 id="about" class="sticky top-0 bg-shark">About</h2>
     <div class="flex flex-col gap-5">
       {@html about}
     </div>
-    <h2 id="experience">Experience</h2>
+    <h2 id="experience" class="sticky top-0 bg-shark">Experience</h2>
     <div class="flex flex-col gap-10">
       {#each data.experience as experience}
         <Experience md={experience} />
       {/each}
     </div>
-    <h2 id="projects">Projects</h2>
+    <h2 id="projects" class="sticky top-0 bg-shark">Projects</h2>
     <div class="flex flex-col gap-10">
       {#each data.projects as project}
         <Project md={project} />
